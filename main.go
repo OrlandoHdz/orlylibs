@@ -12,11 +12,11 @@ func main() {
 	fmt.Println("Iniciando prueba UploadFiles")
 
 	td := transfers.Transfers{
-		DestinationUser:   "ftp4772",
-		DestinationPass:   "bRN0cJRK",
-		DestinationHost:   "webconnect.seresnet.com",
+		DestinationUser:   "uuuuuuuu",
+		DestinationPass:   "ppppppp",
+		DestinationHost:   "serverxxxxx.com",
 		DestinationPort:   "22",
-		DestinationFolder: "/recepcion/delfor_d04a",
+		DestinationFolder: "/recepcion/datos",
 	}
 
 	tt := transfers.NewTransfers(td)
